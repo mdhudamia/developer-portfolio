@@ -16,7 +16,7 @@ span.special_color {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
 }
 
@@ -65,4 +65,18 @@ a.link_button {
 .dream_area .container p {
     width: 80%;
     text-align: left;
+}
+
+.expreance_area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left, center;
+}
+
+.expreance_area h1 {
+    padding-left: 40px;
+}
+
+.expreance_area .container h2 {
+    font-size: 40px;
 }
