@@ -12,6 +12,12 @@ h1 {
     font-size: 50px;
 }
 
+p {
+    font-size: 16px;
+    color: gray;
+    line-height: 1.8;
+}
+
 span.special_color {
     color: orange;
 }
@@ -71,6 +77,7 @@ a.link_button {
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left, center;
+    margin-bottom: 150px;
 }
 
 .expreance_area h1 {
@@ -79,4 +86,40 @@ a.link_button {
 
 .expreance_area .container h2 {
     font-size: 40px;
+}
+
+.expreance_area .container {
+    box-shadow: 10px 10px 40px gray;
+
+}
+
+.exp_text {
+    padding: 30px;
+    margin: 1% 5%;
+    box-shadow: 10px 10px 40px gray;
+}
+
+.exp_text h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.exp_text h3 {
+    color: orange;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+#full_stack {
+    border-left: 7px solid tomato;
+}
+
+#baby_web {
+    border-left: 7px solid blue;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
